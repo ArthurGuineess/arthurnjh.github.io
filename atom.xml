@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.arthurnjh.me</id>
     <title>GeniusArthur</title>
-    <updated>2019-05-26T08:35:17.895Z</updated>
+    <updated>2019-05-26T08:50:03.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.arthurnjh.me"/>
     <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
-    <subtitle>Welcome to my space</subtitle>
+    <subtitle>&lt;h3&gt;Welcome to my space&lt;h3&gt;</subtitle>
     <logo>https://www.arthurnjh.me/images/avatar.png</logo>
     <icon>https://www.arthurnjh.me/favicon.ico</icon>
     <rights>All rights reserved 2019, GeniusArthur</rights>
