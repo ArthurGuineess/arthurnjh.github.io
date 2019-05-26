@@ -1,220 +1,153 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
+  <head>
+    <meta charset="utf-8" >
+
 <title>分享 | ArthurGuinness&#39; blog</title>
-<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1558869090064">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="https://www.arthurnjh.me/styles/main.css" type='text/css' media='all'>
+<meta name="description" content="&lt;h2&gt;Welcome to my space&lt;h2&gt;">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1558880820883">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://www.arthurnjh.me/styles/main.css">
 
 
 
-</head>
-<body class="home blog ct-body standard">
-<div id="overflow-container" class="overflow-container">
-    <header id="site-header" class="site-header" role="banner">
-    <div class='top-navigation top-navigation-important'>
-        <div class='container'>
-            <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
-                <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
-                <div class="menu">
-                    <ul id="menu-secondary-items" class="menu-secondary-items">
-                        
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://www.arthurnjh.me/tag/share">分享</a>
-                        </li>
-                            
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://www.arthurnjh.me/tag/idea">想法</a>
-                        </li>
-                            
-                        
-                    </ul>
-                </div>
-            </div>
-            <ul class="social-media-icons">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </ul>
-        </div>
-    </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-    <div class="container">
-        <div id="title-info" class="title-info">
-            <div id='site-title' class='site-title'>
-                <a href="https://www.arthurnjh.me">  ArthurGuinness&#39; blog </a>
-            </div>
-        </div>
-        <button id="toggle-navigation" class="toggle-navigation">
-            <i class="fa fa-bars"></i>
-        </button>
-        <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
-        <div id="menu-primary" class="menu-container menu-primary" role="navigation">
-            <p class="site-description"><h2>Welcome to my space<h2></p>
-            <div class="menu">
-                <ul id="menu-primary-items" class="menu-primary-items">
-                     
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/">首页</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/tags">标签</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/post/about">关于</a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-</header>
 
-        <div class="main-content">
-            <div class="current-tag-container">
-                <h2 class="title">
-                    标签：#分享
-                </h2>
-            </div>
-        </div>
-    <div id="main" class="main" role="main">
-  <h1 class="screen-reader-text">Posts</h1>
-  
-  <div id="loop-container" class="loop-container">
-    <div class="post type-post status-publish format-standard   has-post-thumbnail hentry category-design tag-memories
-    tag-normal-post tag-standard-2 excerpt zoom full-without-featured
-      
-      even
-       excerpt">
-      
-      <a class="featured-image-link" href="https://www.arthurnjh.me/post/fight-for-liberty">
-        <div class='featured-image lazy lazy-bg-image' data-background="https://www.arthurnjh.me/post-images/fight-for-liberty.jpg"></div>
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://www.arthurnjh.me">
+        <img src="https://www.arthurnjh.me/images/avatar.png?v=1558880820883" class="site-logo">
+        <h1 class="site-title">ArthurGuinness&#39; blog</h1>
       </a>
-      
-      <div class="excerpt-container">
-        <div class="excerpt-meta">
-          <span class="date">  · 2019-05-26 ·</span> <span> / </span>
-          <span class="author">
-              <a href="https://www.arthurnjh.me" title="Posts by  ArthurGuinness&#39; blog" rel="author"> ArthurGuinness&#39; blog</a>
-          </span>
-            
-                <span> / </span>
-                <span class="category">
-                        <a href="https://www.arthurnjh.me/tag/share">分享</a>
-                </span>
-            
-
-        </div>
-        <div class='excerpt-header'>
-          <h2 class='excerpt-title'>
-            <a href="https://www.arthurnjh.me/post/fight-for-liberty"> Fight For Liberty </a>
-          </h2>
-        </div>
-        <div class='excerpt-content'>
-          <article>
-              <h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
-<p>这篇文章选自卓别林的经典电影《大独裁者》最后的演讲部分，第一次看到感触很深，收藏下来，共勉。</p>
-
-          </article>
-        </div>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
   </div>
-  
-</div>
-
-    <nav class="navigation pagination" role="navigation">
-    <h2 class="screen-reader-text">Posts navigation</h2>
-    <div class="nav-links">
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
+          <a class="social-link" href="www.github.com/geniusarthur" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
     </div>
-</nav>
-
-    <footer id="site-footer" class="site-footer" role="contentinfo">
-    <h1>
-        <a href="https://www.arthurnjh.me"> ArthurGuinness&#39; blog </a>
-    </h1>
-    <p class="site-description"><h2>Welcome to my space<h2></p>
-    <div id="menu-footer" class="menu-container menu-footer" role="navigation">
-        <div class="menu">
-            <ul id="menu-footer-items" class="menu-footer-items">
-            </ul>
-        </div>
+    <div class="site-description">
+      <h2>Welcome to my space<h2>
     </div>
-    <ul class="social-media-icons">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </ul>
-    <div class="design-credit">
-        <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
 <br>
 <p>contect me:</p>
       <a href="/images/QRCode/qq.png" title="QQ"><img src="/images/qq.png" width="25" height="25" alt="QQ" /></a>
       <a href="/images/QRCode/sina.png" title="sina"><img src="/images/sina.png" width="25" height="25" alt="Sina" /></a>
       <a href="/images/QRCode/twitter.png" title="twitter"><img src="/images/twitter.png" width="25" height="25" alt="Twitter" /></a>
-<br></p>
+<br> | <a class="rss" href="https://www.arthurnjh.me/atom.xml" target="_blank">RSS</a>
     </div>
-</footer>
-<script>
-    hljs.initHighlightingOnLoad()
-</script>
-<script src="https://www.arthurnjh.me/media/scripts/lib/jquery.min.js"></script>
-<script src="https://www.arthurnjh.me/media/scripts/lib/jquerymigrate.js"></script>
-<script src="https://www.arthurnjh.me/media/scripts/lib/production.min.js"></script>
-
+  </div>
 </div>
-</body>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 分享</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://www.arthurnjh.me/post/fight-for-liberty">
+                  <h2 class="post-title">Fight For Liberty</h2>
+                </a>
+                <div class="post-date">
+                  2019-05-26
+                </div>
+                <div class="post-abstract">
+                  <h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
+<p>这篇文章选自卓别林的经典电影《大独裁者》最后的演讲部分，第一次看到感触很深，收藏下来，共勉。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://www.arthurnjh.me/post/fight-for-liberty">
+                  <div class="feature-container" style="background-image: url('https://www.arthurnjh.me/post-images/fight-for-liberty.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>
