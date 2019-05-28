@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<title>ArthurGuinness&#39; blog</title>
+<title>Python初试 | ArthurGuinness&#39; blog</title>
 <link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559051471828">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.arthurnjh.me/styles/main.css" type='text/css' media='all'>
@@ -18,7 +18,7 @@
 
 
 </head>
-<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+<body class="home blog ct-body standard">
 <div id="overflow-container" class="overflow-container">
   <a class="skip-content" href="#main">Skip to content</a>
   <header id="site-header" class="site-header" role="banner">
@@ -114,17 +114,159 @@
 
 </header>
 
+
   <div id="main" class="main" role="main">
-    <div class="main-content">
-      <div class="tags-container">
+    <div id="loop-container" class="loop-container">
+      <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
         
-          <a class="tag" href="https://www.arthurnjh.me/tag/record">记录</a>
-        
-          <a class="tag" href="https://www.arthurnjh.me/tag/share">分享</a>
-        
-          <a class="tag" href="https://www.arthurnjh.me/tag/idea">想法</a>
-        
+
+        <div class="entry-meta">
+          <span class="date">· 2019-05-28 ·</span> <span> / </span>
+          <span class="author">
+            <a href="https://www.arthurnjh.me" title="" rel="author"> Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+<br>
+<p>contect me:</p>
+      <a href="/images/QRCode/qq.png" title="QQ"><img src="/images/qq.png" width="25" height="25" alt="QQ" /></a>
+      <a href="/images/QRCode/sina.png" title="sina"><img src="/images/sina.png" width="25" height="25" alt="Sina" /></a>
+      <a href="/images/QRCode/twitter.png" title="twitter"><img src="/images/twitter.png" width="25" height="25" alt="Twitter" /></a>
+<a href="atom.xml" title="RSS" target="_blank"><img src="/images/rss.png" width="25" height="25" alt="RSS" /></a></a>
+          </span>
+          
+            <span class="category">
+                    <span> / </span>
+                    <a href="https://www.arthurnjh.me/tag/record">记录</a>
+                </span>
+          
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'>Python初试</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
+<!--more-->
+<p>前期学了几天python，也简单了解了NEMA 0183协议和GNSS接收机的命令和数据收取。
+经过在网上学习了很多别人的代码后，我完成了以下脚本：</p>
+<pre><code>#设置脚本编码
+#coding=utf-8
+
+#导入必要的模块，这里的pynmea2暂时没有用到，下面解释它的用处
+import serial
+import pynmea2
+import time
+
+#配置并打开串口，这里是在Windows下的串口
+ser = serial.Serial(&quot;COM4&quot;,115200)
+ser.timeout = 2 #设置超时时间为两秒
+ser.parity = &quot;N&quot; #设置校验码为无
+
+#检测串口是否打开
+def Open():
+    if ser.isOpen():
+        print(&quot;serial is opened.&quot;)
+    else:
+        ser.open()
+        print('serial is restarted.')
+				
+				#发送命令
+def SendDate(i_msg):
+    i_msg = i_msg + &quot;\r\n&quot; #要加上换行回车符表示命令传输完成
+    try:
+        i_msg = i_msg.encode('ascii') #将string字符串转换为byte字节
+        ser.write(i_msg) #发送命令
+    except Exception as ex:
+        print(ex)
+
+#开始执行
+if __name__ == &quot;__main__&quot;:
+    Open()
+    SendDate(&quot;KSXT 1&quot;)
+    while 1:
+        line = ser.readline() #读取数据，这里是按行读取，遇到&quot;\n&quot;结束
+        line = line.decode('ascii') #将读取出来的byte型转为string型
+        print(line)
+</code></pre>
+<p>注意事项：</p>
+<ol>
+<li>如果用的readline读取一定要设置timeout，否则可能造成阻塞</li>
+<li>注意发送数据一定要转换成字符型，否则会直接报错</li>
+<li>命令要加上&quot;\r\n&quot;作为结束标志</li>
+<li>serial读出来的数据为byte型，要通过decode方法解码成string型，编码按接收的数据来设置</li>
+</ol>
+<p>下一步的工作：</p>
+<ol>
+<li>利用<a href="http://www.gnss.help/2018/03/01/pynmea2-readme/">pynmea2</a>解析数据，取出经纬度，海拔和航向等数据。</li>
+<li>利用ROS在Ubuntu上读取数据，实现以上筛选。</li>
+<li>将读取的位置信息显示在地图上（可以利用各大地图的API实现）。</li>
+</ol>
+
+            </article>
+          </div>
+          <div class='entry-meta-bottom'>
+            <div class="entry-categories">
+              <p>
+                <span>Categories</span>
+                
+                  
+                    
+                  <a href="https://www.arthurnjh.me/tag/record" title="View all posts in 记录">记录</a>
+                    
+                    
+                    
+                  <a href="https://www.arthurnjh.me/tag/share" title="View all posts in 分享">分享</a>
+                    
+                    
+                    
+                  <a href="https://www.arthurnjh.me/tag/idea" title="View all posts in 想法">想法</a>
+                    
+                    
+              </p>
+            </div>
+            <div class="entry-tags">
+              <p><span>Tags</span>
+              </p>
+            </div>
+          </div>
+          <div class="author-meta">
+            <div class="author">
+              <img alt='' src="https://www.arthurnjh.me/images/avatar.png?v=1559051471828" class='avatar avatar-72 photo' height='72' width='72'>
+              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='https://www.arthurnjh.me'></a> </span>
+            </div>
+            <div class="bio">
+              <p></p>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            </div>
+          </div>
+        </div>
+          
+            <nav class="navigation pagination" role="navigation">
+              <h2 class="screen-reader-text">Posts navigation</h2>
+              <div class="nav-links">
+                <a class="next page-numbers" href="https://www.arthurnjh.me/post/fight-for-liberty">下一篇->Fight For Liberty</a>
+              </div>
+            </nav>
+          
       </div>
+      <section id="comments" class="comments">
+        
+      </section>
     </div>
   </div>
   <footer id="site-footer" class="site-footer" role="contentinfo">
@@ -177,5 +319,4 @@
 </div>
 </body>
 </html>
-
 
