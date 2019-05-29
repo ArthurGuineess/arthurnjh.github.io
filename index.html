@@ -1,205 +1,188 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ArthurGuinness&#39; blog</title>
-<meta name="description" content="&lt;h2&gt;Welcome to my space&lt;h2&gt;">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559138902705">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="D:/坚果云/我的坚果云/Gridea/output/favicon.ico?v=1559138564861">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="D:/坚果云/我的坚果云/Gridea/output/styles/main.css">
+<link rel="stylesheet" href="https://www.arthurnjh.me/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="D:/坚果云/我的坚果云/Gridea/output">
-        <img src="D:/坚果云/我的坚果云/Gridea/output/images/avatar.png?v=1559138564861" class="site-logo">
-        <h1 class="site-title">ArthurGuinness&#39; blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://www.arthurnjh.me">
+  <img class="avatar" src="https://www.arthurnjh.me/images/avatar.png?v=1559138902705" alt="">
+  </a>
+  <h1 class="site-title">
+    ArthurGuinness&#39; blog
+  </h1>
+  <p class="site-description">
+    <h2>Welcome to my space<h2>
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+    
       
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
+        <a href="/tags" class="menu">
+          标签
+        </a>
       
-    </div>
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://www.arthurnjh.me/post/近思">
+        <h2 class="post-title">近思</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-05-29 ·
+        </time>
         
-          <a class="social-link" href="www.github.com/geniusarthur" target="_blank">
-            <i class="fab fa-github"></i>
+          <a href="https://www.arthurnjh.me/tag/idea" class="post-tag">
+            # 想法
           </a>
         
+      </div>
       
+      <div class="post-abstract">
+        <p>许久，感到孤独。</p>
+
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://www.arthurnjh.me/post/python初试">
+        <h2 class="post-title">Python初试</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-05-28 ·
+        </time>
         
-      
+          <a href="https://www.arthurnjh.me/tag/record" class="post-tag">
+            # 记录
+          </a>
         
+      </div>
       
+      <div class="post-abstract">
+        <p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
+
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://www.arthurnjh.me/post/fight-for-liberty">
+        <h2 class="post-title">Fight For Liberty</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-05-26 ·
+        </time>
         
-      
+          <a href="https://www.arthurnjh.me/tag/share" class="post-tag">
+            # 分享
+          </a>
         
+      </div>
       
-    </div>
-    <div class="site-description">
-      <h2>Welcome to my space<h2>
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+        <a href="https://www.arthurnjh.me/post/fight-for-liberty" class="post-feature-image" style="background-image: url('https://www.arthurnjh.me/post-images/fight-for-liberty.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
+<p>这篇文章选自卓别林的经典电影《大独裁者》最后的演讲部分，第一次看到感触很深，收藏下来，共勉。</p>
+
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://www.arthurnjh.me/post/关于五四运动的一些想法">
+        <h2 class="post-title">关于五四运动的一些想法</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-05-26 ·
+        </time>
+        
+          <a href="https://www.arthurnjh.me/tag/idea" class="post-tag">
+            # 想法
+          </a>
+        
+      </div>
+      
+        <a href="https://www.arthurnjh.me/post/关于五四运动的一些想法" class="post-feature-image" style="background-image: url('https://www.arthurnjh.me/post-images/关于五四运动的一些想法.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
+
+      </di>
+    </article>
+  
+</div>
+
+    
+        <div class="pagination-container">
+  
+  
+</div>
+
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
 <br>
 <p>contect me:</p>
       <a href="/images/QRCode/qq.png" title="QQ"><img src="/images/qq.png" width="25" height="25" alt="QQ" /></a>
       <a href="/images/QRCode/sina.png" title="sina"><img src="/images/sina.png" width="25" height="25" alt="Sina" /></a>
       <a href="/images/QRCode/twitter.png" title="twitter"><img src="/images/twitter.png" width="25" height="25" alt="Twitter" /></a>
-<a href="atom.xml" title="RSS" target="_blank"><img src="/images/rss.png" width="25" height="25" alt="RSS" /></a> | <a class="rss" href="D:/坚果云/我的坚果云/Gridea/output/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
+<a href="atom.xml" title="RSS" target="_blank"><img src="/images/rss.png" width="25" height="25" alt="RSS" /></a> | 
+  <a class="rss" href="https://www.arthurnjh.me/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html">
-                  <h2 class="post-title">近思</h2>
-                </a>
-                <div class="post-date">
-                  2019-05-29
-                </div>
-                <div class="post-abstract">
-                  <p>许久，感到孤独。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html">
-                  <h2 class="post-title">Python初试</h2>
-                </a>
-                <div class="post-date">
-                  2019-05-28
-                </div>
-                <div class="post-abstract">
-                  <p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html">
-                  <h2 class="post-title">Fight For Liberty</h2>
-                </a>
-                <div class="post-date">
-                  2019-05-26
-                </div>
-                <div class="post-abstract">
-                  <h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
-<p>这篇文章选自卓别林的经典电影《大独裁者》最后的演讲部分，第一次看到感触很深，收藏下来，共勉。</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html">
-                  <div class="feature-container" style="background-image: url('file:///D:/坚果云/我的坚果云/Gridea/output/post-images/fight-for-liberty.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html">
-                  <h2 class="post-title">关于五四运动的一些想法</h2>
-                </a>
-                <div class="post-date">
-                  2019-05-26
-                </div>
-                <div class="post-abstract">
-                  <p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html">
-                  <div class="feature-container" style="background-image: url('file:///D:/坚果云/我的坚果云/Gridea/output/post-images/关于五四运动的一些想法.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
