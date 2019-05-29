@@ -109,8 +109,8 @@ body {
     padding: 0;
     font-family: "raleway", sans-serif;
     line-height: 1.5;
-    color: #640aa0;
-    background: #ffffff;
+    color: #4d4d4d;
+    background: #222;
     -webkit-font-smoothing: antialiased;
     word-wrap: break-word;
     -ms-word-wrap: break-word;
@@ -1753,7 +1753,7 @@ li.pingback:first-child {
 }
 
 .design-credit {
-    background: #111;
+    background: #ffffff;
     color: #8c8c8c;
     padding: 0.75em 0;
     margin-top: 48px;
