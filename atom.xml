@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.arthurnjh.me</id>
+    <id>D:/坚果云/我的坚果云/Gridea/output</id>
     <title>ArthurGuinness&apos; blog</title>
-    <updated>2019-05-29T14:12:09.050Z</updated>
+    <updated>2019-05-29T14:13:03.990Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.arthurnjh.me"/>
-    <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
+    <link rel="alternate" href="D:/坚果云/我的坚果云/Gridea/output"/>
+    <link rel="self" href="D:/坚果云/我的坚果云/Gridea/output/atom.xml"/>
     <subtitle>&lt;h2&gt;Welcome to my space&lt;h2&gt;</subtitle>
-    <logo>https://www.arthurnjh.me/images/avatar.png</logo>
-    <icon>https://www.arthurnjh.me/favicon.ico</icon>
+    <logo>D:/坚果云/我的坚果云/Gridea/output/images/avatar.png</logo>
+    <icon>D:/坚果云/我的坚果云/Gridea/output/favicon.ico</icon>
     <rights>All rights reserved 2019, ArthurGuinness&apos; blog</rights>
     <entry>
         <title type="html"><![CDATA[近思]]></title>
-        <id>https://www.arthurnjh.me/post/近思</id>
-        <link href="https://www.arthurnjh.me/post/近思">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html">
         </link>
         <updated>2019-05-29T12:57:08.000Z</updated>
         <summary type="html"><![CDATA[<p>许久，感到孤独。</p>
@@ -31,8 +31,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Python初试]]></title>
-        <id>https://www.arthurnjh.me/post/python初试</id>
-        <link href="https://www.arthurnjh.me/post/python初试">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html">
         </link>
         <updated>2019-05-28T13:20:28.000Z</updated>
         <summary type="html"><![CDATA[<p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
@@ -97,8 +97,8 @@ if __name__ == &quot;__main__&quot;:
     </entry>
     <entry>
         <title type="html"><![CDATA[Fight For Liberty]]></title>
-        <id>https://www.arthurnjh.me/post/fight-for-liberty</id>
-        <link href="https://www.arthurnjh.me/post/fight-for-liberty">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html">
         </link>
         <updated>2019-05-26T10:50:14.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
@@ -118,8 +118,8 @@ if __name__ == &quot;__main__&quot;:
     </entry>
     <entry>
         <title type="html"><![CDATA[关于五四运动的一些想法]]></title>
-        <id>https://www.arthurnjh.me/post/关于五四运动的一些想法</id>
-        <link href="https://www.arthurnjh.me/post/关于五四运动的一些想法">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html">
         </link>
         <updated>2019-05-26T09:23:43.000Z</updated>
         <summary type="html"><![CDATA[<p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
