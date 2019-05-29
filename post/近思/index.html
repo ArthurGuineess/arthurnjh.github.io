@@ -7,81 +7,97 @@
 <meta name="description" content="&lt;h2&gt;Welcome to my space&lt;h2&gt;">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559138519744">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="shortcut icon" href="D:/坚果云/我的坚果云/Gridea/output/favicon.ico?v=1559138564861">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://www.arthurnjh.me/styles/main.css">
+<link rel="stylesheet" href="D:/坚果云/我的坚果云/Gridea/output/styles/main.css">
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
+
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://www.arthurnjh.me">ArthurGuinness&#39; blog</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="D:/坚果云/我的坚果云/Gridea/output">
+        <img src="D:/坚果云/我的坚果云/Gridea/output/images/avatar.png?v=1559138564861" class="site-logo">
+        <h1 class="site-title">ArthurGuinness&#39; blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
         
-      </ul>
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="www.github.com/geniusarthur" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <h2>Welcome to my space<h2>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+<br>
+<p>contect me:</p>
+      <a href="/images/QRCode/qq.png" title="QQ"><img src="/images/qq.png" width="25" height="25" alt="QQ" /></a>
+      <a href="/images/QRCode/sina.png" title="sina"><img src="/images/sina.png" width="25" height="25" alt="Sina" /></a>
+      <a href="/images/QRCode/twitter.png" title="twitter"><img src="/images/twitter.png" width="25" height="25" alt="Twitter" /></a>
+<a href="atom.xml" title="RSS" target="_blank"><img src="/images/rss.png" width="25" height="25" alt="RSS" /></a> | <a class="rss" href="D:/坚果云/我的坚果云/Gridea/output/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>近思</h1>
-            <p class="article-meta">
-              2019-05-29
-              
-                <a href="https://www.arthurnjh.me/tag/idea" class="badge warning">
-                  想法
-                </a>
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">近思</h2>
+            <div class="post-date">2019-05-29</div>
             
             <div class="post-content">
               <p>许久，感到孤独。</p>
@@ -95,109 +111,32 @@
 <p>因为出现的时间不定，所以不会有预防措施，只有尽量去缓解，或者等待它自己消失，然后继续充实的生活。</p>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
+            
+              <div class="tag-container">
+                
+                  <a href="D:/坚果云/我的坚果云/Gridea/output/tag/idea/index.html" class="tag">
+                    想法
+                  </a>
+                
               </div>
-              <a href="https://www.arthurnjh.me/post/python初试">
-                <h3 class="post-title">
-                  Python初试
-                </h3>
-              </a>
-            </div>
-          
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html">
+                  <h3 class="post-title">
+                    Python初试
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
         </div>
-        
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://www.arthurnjh.me/images/avatar.png?v=1559138519744" class="no-responsive avatar">
-    <div class="text-muted"><h2>Welcome to my space<h2></div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://www.arthurnjh.me/post/近思">近思</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.arthurnjh.me/post/python初试">Python初试</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.arthurnjh.me/post/fight-for-liberty">Fight For Liberty</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://www.arthurnjh.me/post/关于五四运动的一些想法">关于五四运动的一些想法</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://www.arthurnjh.me/tag/idea" class="badge ">
-          想法
-        </a>
-      
-        <a href="https://www.arthurnjh.me/tag/record" class="badge success">
-          记录
-        </a>
-      
-        <a href="https://www.arthurnjh.me/tag/share" class="badge warning">
-          分享
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-<br>
-<p>contect me:</p>
-      <a href="/images/QRCode/qq.png" title="QQ"><img src="/images/qq.png" width="25" height="25" alt="QQ" /></a>
-      <a href="/images/QRCode/sina.png" title="sina"><img src="/images/sina.png" width="25" height="25" alt="Sina" /></a>
-      <a href="/images/QRCode/twitter.png" title="twitter"><img src="/images/twitter.png" width="25" height="25" alt="Twitter" /></a>
-<a href="atom.xml" title="RSS" target="_blank"><img src="/images/rss.png" width="25" height="25" alt="RSS" /></a> | <a class="rss" href="https://www.arthurnjh.me/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -207,6 +146,13 @@
 AOS.init();
 
 hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
