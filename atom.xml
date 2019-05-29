@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.arthurnjh.me</id>
     <title>ArthurGuinness&apos; blog</title>
-    <updated>2019-05-29T04:54:15.873Z</updated>
+    <updated>2019-05-29T12:56:25.095Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.arthurnjh.me"/>
     <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
@@ -22,7 +22,7 @@
 <!--more-->
 <p>前期学了几天python，也简单了解了NEMA 0183协议和GNSS接收机的命令和数据收取。
 经过在网上学习了很多别人的代码后，我完成了以下脚本：</p>
-<pre><code>#设置脚本编码
+<pre><code class="language-Python">#设置脚本编码
 #coding=utf-8
 
 #导入必要的模块，这里的pynmea2暂时没有用到，下面解释它的用处
@@ -42,7 +42,7 @@ def Open():
     else:
         ser.open()
         print('serial is restarted.')
-				
+
 				#发送命令
 def SendDate(i_msg):
     i_msg = i_msg + &quot;\r\n&quot; #要加上换行回车符表示命令传输完成

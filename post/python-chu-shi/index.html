@@ -7,7 +7,7 @@
 <meta name="description" content="&lt;h2&gt;Welcome to my space&lt;h2&gt;">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559105642865">
+<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559134577727">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -77,7 +77,7 @@
             <p class="article-meta">
               2019-05-28
               
-                <a href="https://www.arthurnjh.me/tag/record" class="badge success">
+                <a href="https://www.arthurnjh.me/tag/record" class="badge warning">
                   记录
                 </a>
               
@@ -88,7 +88,7 @@
 <!--more-->
 <p>前期学了几天python，也简单了解了NEMA 0183协议和GNSS接收机的命令和数据收取。
 经过在网上学习了很多别人的代码后，我完成了以下脚本：</p>
-<pre><code>#设置脚本编码
+<pre><code class="language-Python">#设置脚本编码
 #coding=utf-8
 
 #导入必要的模块，这里的pynmea2暂时没有用到，下面解释它的用处
@@ -108,7 +108,7 @@ def Open():
     else:
         ser.open()
         print('serial is restarted.')
-				
+
 				#发送命令
 def SendDate(i_msg):
     i_msg = i_msg + &quot;\r\n&quot; #要加上换行回车符表示命令传输完成
@@ -163,7 +163,7 @@ if __name__ == &quot;__main__&quot;:
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://www.arthurnjh.me/images/avatar.png?v=1559105642865" class="no-responsive avatar">
+    <img src="https://www.arthurnjh.me/images/avatar.png?v=1559134577727" class="no-responsive avatar">
     <div class="text-muted"><h2>Welcome to my space<h2></div>
     <div class="social-container">
       
@@ -213,15 +213,15 @@ if __name__ == &quot;__main__&quot;:
     </div>
     <div class="row">
       
-        <a href="https://www.arthurnjh.me/tag/record" class="badge warning">
+        <a href="https://www.arthurnjh.me/tag/record" class="badge secondary">
           记录
         </a>
       
-        <a href="https://www.arthurnjh.me/tag/share" class="badge secondary">
+        <a href="https://www.arthurnjh.me/tag/share" class="badge warning">
           分享
         </a>
       
-        <a href="https://www.arthurnjh.me/tag/idea" class="badge secondary">
+        <a href="https://www.arthurnjh.me/tag/idea" class="badge warning">
           想法
         </a>
       
