@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" >
 
-<title>近思 | ArthurGuinness&#39; blog</title>
+<title>Python初试 | ArthurGuinness&#39; blog</title>
 <meta name="description" content="&lt;h2&gt;Welcome to my space&lt;h2&gt;">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559136083640">
+<link rel="shortcut icon" href="https://www.arthurnjh.me/favicon.ico?v=1559138519744">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -73,22 +73,73 @@
       <div class="sm-12 md-8 col">
         <div class="paper">
           <article class="article">
-            <h1>近思</h1>
+            <h1>Python初试</h1>
             <p class="article-meta">
-              2019-05-29
+              2019-05-28
               
-                <a href="https://www.arthurnjh.me/tag/idea" class="badge success">
-                  想法
+                <a href="https://www.arthurnjh.me/tag/record" class="badge secondary">
+                  记录
                 </a>
               
             </p>
             
             <div class="post-content">
-              <p>许久，感到孤独。</p>
+              <p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
 <!--more-->
-<p>时而在暗夜，时而在阴雨，也时而在晴空下。</p>
-<p>可能是因为性格使然。时常想法颇多，却陷于不会表达，不愿表达。因此错过了许多缘分，包括友情，包括爱情。
-现在依然如此，像是害怕与人交往太深，也像是懒得交往太深。似乎打小就有一种想法刻在心里，所谓朋友，心意大抵相通，不拘小节，不藏心机，但各自坚守底线。在现实中我与人也即是按这个标准来做的。似乎来者不拒，有人接近就试着当成朋友相处，可过了一段时间就会发现，好像不适合相处太深，如果没有什么必要的相处机会就会渐渐淡了。</p>
+<p>前期学了几天python，也简单了解了NEMA 0183协议和GNSS接收机的命令和数据收取。
+经过在网上学习了很多别人的代码后，我完成了以下脚本：</p>
+<pre><code class="language-Python">#设置脚本编码
+#coding=utf-8
+
+#导入必要的模块，这里的pynmea2暂时没有用到，下面解释它的用处
+import serial
+import pynmea2
+import time
+
+#配置并打开串口，这里是在Windows下的串口
+ser = serial.Serial(&quot;COM4&quot;,115200)
+ser.timeout = 2 #设置超时时间为两秒
+ser.parity = &quot;N&quot; #设置校验码为无
+
+#检测串口是否打开
+def Open():
+    if ser.isOpen():
+        print(&quot;serial is opened.&quot;)
+    else:
+        ser.open()
+        print('serial is restarted.')
+
+				#发送命令
+def SendDate(i_msg):
+    i_msg = i_msg + &quot;\r\n&quot; #要加上换行回车符表示命令传输完成
+    try:
+        i_msg = i_msg.encode('ascii') #将string字符串转换为byte字节
+        ser.write(i_msg) #发送命令
+    except Exception as ex:
+        print(ex)
+
+#开始执行
+if __name__ == &quot;__main__&quot;:
+    Open()
+    SendDate(&quot;KSXT 1&quot;)
+    while 1:
+        line = ser.readline() #读取数据，这里是按行读取，遇到&quot;\n&quot;结束
+        line = line.decode('ascii') #将读取出来的byte型转为string型
+        print(line)
+</code></pre>
+<p>注意事项：</p>
+<ol>
+<li>如果用的readline读取一定要设置timeout，否则可能造成阻塞</li>
+<li>注意发送数据一定要转换成字符型，否则会直接报错</li>
+<li>命令要加上&quot;\r\n&quot;作为结束标志</li>
+<li>serial读出来的数据为byte型，要通过decode方法解码成string型，编码按接收的数据来设置</li>
+</ol>
+<p>下一步的工作：</p>
+<ol>
+<li>利用<a href="http://www.gnss.help/2018/03/01/pynmea2-readme/">pynmea2</a>解析数据，取出经纬度，海拔和航向等数据。</li>
+<li>利用ROS在Ubuntu上读取数据，实现以上筛选。</li>
+<li>将读取的位置信息显示在地图上（可以利用各大地图的API实现）。</li>
+</ol>
 
             </div>
           </article>
@@ -99,9 +150,9 @@
               <div class="next">
                 下一篇
               </div>
-              <a href="https://www.arthurnjh.me/post/python-chu-shi">
+              <a href="https://www.arthurnjh.me/post/fight-for-liberty">
                 <h3 class="post-title">
-                  Python初试
+                  Fight For Liberty
                 </h3>
               </a>
             </div>
@@ -112,7 +163,7 @@
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://www.arthurnjh.me/images/avatar.png?v=1559136083640" class="no-responsive avatar">
+    <img src="https://www.arthurnjh.me/images/avatar.png?v=1559138519744" class="no-responsive avatar">
     <div class="text-muted"><h2>Welcome to my space<h2></div>
     <div class="social-container">
       
@@ -137,13 +188,13 @@
         
           
             <li>
-              <a href="https://www.arthurnjh.me/post/jin-si">近思</a>
+              <a href="https://www.arthurnjh.me/post/近思">近思</a>
             </li>
           
         
           
             <li>
-              <a href="https://www.arthurnjh.me/post/python-chu-shi">Python初试</a>
+              <a href="https://www.arthurnjh.me/post/python初试">Python初试</a>
             </li>
           
         
@@ -172,7 +223,7 @@
           想法
         </a>
       
-        <a href="https://www.arthurnjh.me/tag/record" class="badge warning">
+        <a href="https://www.arthurnjh.me/tag/record" class="badge ">
           记录
         </a>
       
