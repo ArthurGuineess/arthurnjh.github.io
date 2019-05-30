@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.arthurnjh.me</id>
+    <id>D:/坚果云/我的坚果云/Gridea/output</id>
     <title>ArthurGuinness&apos; blog</title>
-    <updated>2019-05-29T14:46:34.142Z</updated>
+    <updated>2019-05-30T14:53:13.940Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.arthurnjh.me"/>
-    <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
+    <link rel="alternate" href="D:/坚果云/我的坚果云/Gridea/output"/>
+    <link rel="self" href="D:/坚果云/我的坚果云/Gridea/output/atom.xml"/>
     <subtitle>&lt;h2&gt;Welcome to my space&lt;h2&gt;</subtitle>
-    <logo>https://www.arthurnjh.me/images/avatar.png</logo>
-    <icon>https://www.arthurnjh.me/favicon.ico</icon>
+    <logo>D:/坚果云/我的坚果云/Gridea/output/images/avatar.png</logo>
+    <icon>D:/坚果云/我的坚果云/Gridea/output/favicon.ico</icon>
     <rights>All rights reserved 2019, ArthurGuinness&apos; blog</rights>
     <entry>
+        <title type="html"><![CDATA[理解力退化]]></title>
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/理解力退化/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/理解力退化/index.html">
+        </link>
+        <updated>2019-05-30T14:03:36.000Z</updated>
+        <summary type="html"><![CDATA[<p align="center">不久之前，我打开了已经拥有很久的一本书「如何阅读一本书」。</p>]]></summary>
+        <content type="html"><![CDATA[<p align="center">不久之前，我打开了已经拥有很久的一本书「如何阅读一本书」。</p>
+<!--more-->
+<hr>
+<p>也仅仅是打开看了一章，也可以说是前言。但是有一句话一直在我脑海里:</p>
+<blockquote>
+<p>太多的资讯就如同太少的资讯一样，都是一种对理解力的阻碍。</p>
+</blockquote>
+<p>从我接触网络开始，一直热衷于探索新的东西，有知识，有信息，有产品甚至还有观念。之前，这仅限于闲暇时间，至少我能控制自己在现实世界里停止对这种虚拟世界的想法。然而，大学这两年似乎都变了，我开始几乎控制不住去寻求这种探索的快感，甚至上课，休息，吃饭的时间都要保持着。我也在昨天晚上的一篇<a href="https://www.arthurnjh.me/post/%E8%BF%91%E6%80%9D" title="近思">文章</a>说到了关于突如其来的孤独感，其实也有很大一部分原因是来自这么多年的习惯，因为一旦没有了更加吸引我的新东西吸引我，就会陷入这种莫名的空虚，而我却身在其中不自知。</p>
+<p>正是这种不自知的习惯让我陷入了我称之为 <strong>「理解力退化」</strong> 的境地。因为网络传播的快速更新，其信息往往会直接给出结论，而我们只要很短的时间去看的结论就会跳过，而忽略获取信息其实更加看重过程，或者更具体的说为 <strong>「理解分析的过程」</strong>，因为这才是我们获取信息同时得到进步的方式。</p>
+<p>当我在经历过长时间网络化获取资讯后，我发现自己的理解力以及耐心都失去了很多，当我看到一篇长文章时，总会习惯性的看完开头直接跳到结尾看结论，如果没有结论哪我会选择立即跳到下一篇。这无疑是在浪费时间，但网络的快速化信息又会迅速填充进来，你甚至不会想到刚刚的信息是什么样的。</p>
+<p>这也直接导致了我现在的处境，没有耐心，看到一下不直接给出结论的信息很难去自己理解分析总结，甚至在缺乏足够吸引力的东西时陷入空虚的状态。</p>
+<p>因此我现在要做的就是把获取信息的方式稍作调整，尽量多从书中获取知识，自己理解总结，而互联网仅作为获取实时资讯的辅助工具。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[近思]]></title>
-        <id>https://www.arthurnjh.me/post/近思</id>
-        <link href="https://www.arthurnjh.me/post/近思">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html">
         </link>
         <updated>2019-05-29T12:57:08.000Z</updated>
         <summary type="html"><![CDATA[<p align="center">许久，感到孤独。<p>]]></summary>
@@ -30,8 +51,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Python初试]]></title>
-        <id>https://www.arthurnjh.me/post/python初试</id>
-        <link href="https://www.arthurnjh.me/post/python初试">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html">
         </link>
         <updated>2019-05-28T13:20:28.000Z</updated>
         <summary type="html"><![CDATA[<p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
@@ -96,8 +117,8 @@ if __name__ == &quot;__main__&quot;:
     </entry>
     <entry>
         <title type="html"><![CDATA[Fight For Liberty]]></title>
-        <id>https://www.arthurnjh.me/post/fight-for-liberty</id>
-        <link href="https://www.arthurnjh.me/post/fight-for-liberty">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html">
         </link>
         <updated>2019-05-26T10:50:14.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
@@ -117,8 +138,8 @@ if __name__ == &quot;__main__&quot;:
     </entry>
     <entry>
         <title type="html"><![CDATA[关于五四运动的一些想法]]></title>
-        <id>https://www.arthurnjh.me/post/关于五四运动的一些想法</id>
-        <link href="https://www.arthurnjh.me/post/关于五四运动的一些想法">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html">
         </link>
         <updated>2019-05-26T09:23:43.000Z</updated>
         <summary type="html"><![CDATA[<p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
