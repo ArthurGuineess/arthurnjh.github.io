@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.arthurnjh.me</id>
+    <id>D:/坚果云/我的坚果云/Gridea/output</id>
     <title>ArthurGuinness&apos; blog</title>
-    <updated>2019-06-02T14:54:50.463Z</updated>
+    <updated>2019-06-03T02:31:27.530Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.arthurnjh.me"/>
-    <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
+    <link rel="alternate" href="D:/坚果云/我的坚果云/Gridea/output"/>
+    <link rel="self" href="D:/坚果云/我的坚果云/Gridea/output/atom.xml"/>
     <subtitle>&lt;h2&gt;Welcome to my space&lt;h2&gt;</subtitle>
-    <logo>https://www.arthurnjh.me/images/avatar.png</logo>
-    <icon>https://www.arthurnjh.me/favicon.ico</icon>
+    <logo>D:/坚果云/我的坚果云/Gridea/output/images/avatar.png</logo>
+    <icon>D:/坚果云/我的坚果云/Gridea/output/favicon.ico</icon>
     <rights>All rights reserved 2019, ArthurGuinness&apos; blog</rights>
     <entry>
         <title type="html"><![CDATA[观感之『流浪地球』]]></title>
-        <id>https://www.arthurnjh.me/post/观感之流浪地球</id>
-        <link href="https://www.arthurnjh.me/post/观感之流浪地球">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/观感之流浪地球/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/观感之流浪地球/index.html">
         </link>
         <updated>2019-06-02T14:30:42.000Z</updated>
         <summary type="html"><![CDATA[<p align="center">今天中午利用一段空闲时间看完了『流浪地球』</p>]]></summary>
         <content type="html"><![CDATA[<p align="center">今天中午利用一段空闲时间看完了『流浪地球』</p>
 <!--more-->
 <p><a href="https://www.douban.com/doubanapp/dispatch/movie/26266893?dt_dapp=1">『流浪地球』</a>作为一部贺岁片，与大年初一上映。在上映前就有很高的话题性，作为中国科幻片的开端，它的任务很重，我们也对它有很大的期待。前期媒体大量报道，似乎已经将这部电影上升到一定的高度。等到上映后，它又在人们的质疑和鼓励中热度再涨。作为一个电影业余爱好者，也是国产电影的支持者，我之所以没有在第一时间去看它，是因为期待与现实有很大的落差，大家的评价很极端化，尽管它在豆瓣上得到了[7.9]<a herf="" title="截止到今天「2019-6-2」"><sup>[1]</sup></a>分，所以我选择先静观其变，等到现在网上放出来再看。</p>
-<p><img src="https://www.arthurnjh.me/post-images/1559486232390.jpg" alt="流浪地球"></p>
+<p><img src="D:/%E5%9D%9A%E6%9E%9C%E4%BA%91/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/Gridea/output/post-images/1559486232390.jpg" alt="流浪地球"></p>
 <p>对于这部电影，我想抛开之前很多人黑的物理原理的漏洞，仅仅就我个人的观后感来谈谈。大概分成三个方面：<a href="#%E6%80%BB%E4%BD%93">总体</a>，<a href="#%E5%8F%99%E4%BA%8B">叙事</a>，<a href="#%E6%84%9F%E5%AE%98">感官</a></p>
 <p>#总体</p>
 <p>就像很多人说的那样，科幻片看的其实是感觉，在我的整个观影过程中，我的感觉就是完整，它并不像美国的科幻片一样去过多的强调个人英雄主义，而是更加具有中国文化色彩。我们更加希望看到的是最后所有人都回来，一起努力拯救地球的场面，因为或多或少都能看到我们自己的影子，这很适用于经历过抗战，解放战争的中国，因为我们知道群众的力量。</p>
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[理解力退化]]></title>
-        <id>https://www.arthurnjh.me/post/理解力退化</id>
-        <link href="https://www.arthurnjh.me/post/理解力退化">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/理解力退化/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/理解力退化/index.html">
         </link>
         <updated>2019-05-30T14:03:36.000Z</updated>
         <summary type="html"><![CDATA[<p align="center">不久之前，我打开了已经拥有很久的一本书「如何阅读一本书」。</p>]]></summary>
@@ -53,8 +53,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[近思]]></title>
-        <id>https://www.arthurnjh.me/post/近思</id>
-        <link href="https://www.arthurnjh.me/post/近思">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/近思/index.html">
         </link>
         <updated>2019-05-29T12:57:08.000Z</updated>
         <summary type="html"><![CDATA[<p align="center">许久，感到孤独。<p>]]></summary>
@@ -71,8 +71,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Python初试]]></title>
-        <id>https://www.arthurnjh.me/post/python初试</id>
-        <link href="https://www.arthurnjh.me/post/python初试">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/python初试/index.html">
         </link>
         <updated>2019-05-28T13:20:28.000Z</updated>
         <summary type="html"><![CDATA[<p>最近在做一个关于机器人的项目，需要接收和分析卫星定位数据，并把位置显示到地图上。初次尝试，只用python写了一个简单的读取脚本，记录一下注意事项。</p>
@@ -137,8 +137,8 @@ if __name__ == &quot;__main__&quot;:
     </entry>
     <entry>
         <title type="html"><![CDATA[Fight For Liberty]]></title>
-        <id>https://www.arthurnjh.me/post/fight-for-liberty</id>
-        <link href="https://www.arthurnjh.me/post/fight-for-liberty">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/fight-for-liberty/index.html">
         </link>
         <updated>2019-05-26T10:50:14.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="the-final-speech-of-the-great-dictator">The Final Speech of &quot;the Great Dictator&quot;</h3>
@@ -154,13 +154,13 @@ if __name__ == &quot;__main__&quot;:
 <p>Soldiers! Don't fight for slavery! Fight for liberty! In the seventeenth chapter of St Luke, it is written the kingdom of God is within man not one man nor a group of men, but in all men! In you! You, the people, have the power - the power to create machines. The power to create happiness! You, the people, have the power to make this life free and beautiful - to make this life a wonderful adventure. Then in the name of democracy - let us use that power - let us all unite. Let us fight for a new world - a decent world that will give men a chance to work - that will give youth a future and old age a security.</p>
 <p>By the promise of these things, brutes have risen to power. But they lie! They do not fulfil that promise. They never will! Dictators free themselves but they enslave the people. Now let us fight to fulfil that promise! Let us fight to free the world - to do away with national barriers - to do away with greed, with hate and intolerance. Let us fight for a world f reason - a world where science and progress will lead to all men's happiness. Soldiers, in the name of democracy let us unite!</p>
 <p>Hannah, can you hear me? Wherever you are, look up Hannah. The clouds are lifting! The sun is breaking through! We are coming out of the darkness into the light. We are coming into a new world - a kindlier world, where men will rise above their hate, their greed and their brutality. Look up, Hannah! The soul of man has been given wings and at last he is beginning to fly. He is flying into the rainbow - into the light of hope, into the future, the glorious future that belongs to you, to me, and to all of us. Look up, Hannah... look up!
-<img src="https://www.arthurnjh.me/post-images/1559273870903.jpg" alt="the Great Dictator"></p>
+<img src="D:/%E5%9D%9A%E6%9E%9C%E4%BA%91/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/Gridea/output/post-images/1559273870903.jpg" alt="the Great Dictator"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于五四运动的一些想法]]></title>
-        <id>https://www.arthurnjh.me/post/关于五四运动的一些想法</id>
-        <link href="https://www.arthurnjh.me/post/关于五四运动的一些想法">
+        <id>D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html</id>
+        <link href="D:/坚果云/我的坚果云/Gridea/output/post/关于五四运动的一些想法/index.html">
         </link>
         <updated>2019-05-26T09:23:43.000Z</updated>
         <summary type="html"><![CDATA[<p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
@@ -168,7 +168,7 @@ if __name__ == &quot;__main__&quot;:
         <content type="html"><![CDATA[<p>距离五四运动一百周年纪念已经过去很多天了，我也一直在看好奇心日报当天发出的文章，事务繁多，拖到现在才看的差不多，谈一谈自己的一些想法，不太成熟，引用了别人的文章表述的清楚一点。</p>
 <!--more-->
 <p>五四运动作为一场中国人的文化启蒙运动已经过去整整一百年了，而五四带来影响却延续至今，可见其历史地位至关重要。
-<img src="https://www.arthurnjh.me/post-images/1559273717448.jpg" alt="青年杂志封面"></p>
+<img src="D:/%E5%9D%9A%E6%9E%9C%E4%BA%91/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91/Gridea/output/post-images/1559273717448.jpg" alt="青年杂志封面"></p>
 <p>毫无疑问，五四在当时的意义是带回西方民主思想的留学生希冀通过呼唤解放与自由来唤醒中国人的思想，进而拯救岌岌可危的中国。可见，五四运动的深层动力是「救亡」，带有深层次的民族主义，这也是它异于西方启蒙运动之处和被定性为爱国主义运动或民族主义运动的原因，以下引述高克力在『五四的思想世界』中的一段话：</p>
 <blockquote>
 <p>中国的启蒙运动源于寻求国家富强的民族主义目标，因而启蒙始终与民族主义结伴而行。这也是中国启蒙异于欧洲启蒙之处，欧洲启蒙时代的个人主义精神毋宁是世界主义的。所谓‘救亡压倒启蒙’之说，显然忽略了中西启蒙的历史差异以及中国启蒙的民族主义关怀。实际上，中国启蒙的深层动力正是‘救亡’，与欧洲人文主义式启蒙相比，中国启蒙毋宁说是一种落后民族寻求富强之道的‘救亡型启蒙’。在中国现代化运动中，西方一直以强盗兼导师的矛盾形象而出现。它一方面代表了自由民主的现代文明，另一方面又是欺凌掠夺东方民族的帝国主义者。与西方文明的自由主义与帝国主义两面神相对应，中国现代化运动和启蒙思潮，亦有亲西方的自由主义与反西方的民族主义两种趋向。中国现代思想之‘反西方的西方化’和‘反现代的现代化’的矛盾取向，即源于此。因而，民族主义之于中国启蒙，始终是一把双刃剑，它既可成为驱策启蒙的精神动力，又可成为抗拒启蒙和现代性的保守因素。</p>
