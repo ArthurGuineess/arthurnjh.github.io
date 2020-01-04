@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://www.arthurnjh.me</id>
+    <id>https://geniusarthur.github.io</id>
     <title>ArthurGuinness&apos; blog</title>
-    <updated>2019-12-12T07:37:54.565Z</updated>
+    <updated>2020-01-04T07:52:35.038Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://www.arthurnjh.me"/>
-    <link rel="self" href="https://www.arthurnjh.me/atom.xml"/>
+    <link rel="alternate" href="https://geniusarthur.github.io"/>
+    <link rel="self" href="https://geniusarthur.github.io/atom.xml"/>
     <subtitle>Welcome to my space
 &lt;a href=&quot;https://www.arthurnjh.me/atom.xml&quot; title=&quot;RSS&quot;&gt; | RSS&lt;/a&gt;</subtitle>
-    <logo>https://www.arthurnjh.me/images/avatar.png</logo>
-    <icon>https://www.arthurnjh.me/favicon.ico</icon>
-    <rights>All rights reserved 2019, ArthurGuinness&apos; blog</rights>
+    <logo>https://geniusarthur.github.io/images/avatar.png</logo>
+    <icon>https://geniusarthur.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, ArthurGuinness&apos; blog</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://www.arthurnjh.me/post/hello-gridea</id>
-        <link href="https://www.arthurnjh.me/post/hello-gridea">
+        <id>https://geniusarthur.github.io/post/hello-gridea</id>
+        <link href="https://geniusarthur.github.io/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
