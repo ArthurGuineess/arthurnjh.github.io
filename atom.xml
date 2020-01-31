@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://geniusarthur.github.io</id>
     <title>岂非博客</title>
-    <updated>2020-01-07T13:38:44.601Z</updated>
+    <updated>2020-01-31T12:28:03.064Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://geniusarthur.github.io"/>
     <link rel="self" href="https://geniusarthur.github.io/atom.xml"/>
@@ -69,7 +69,7 @@
 <p>大内密谈</p>
 <p>看理想电台</p>
 <h2 id="照片">照片</h2>
-<p><img src="https://geniusarthur.github.io/post-images/1578125161491.jpg" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://geniusarthur.github.io/post-images/1578125161491.jpg" alt=""></figure>
 <h2 id="地点">地点</h2>
 <p>星巴克常州传媒中心店</p>
 <h2 id="文章">文章</h2>
