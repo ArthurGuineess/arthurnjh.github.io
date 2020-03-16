@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://geniusarthur.github.io</id>
     <title>岂非博客</title>
-    <updated>2020-02-01T01:06:43.125Z</updated>
+    <updated>2020-03-16T13:32:30.596Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://geniusarthur.github.io"/>
     <link rel="self" href="https://geniusarthur.github.io/atom.xml"/>
-    <subtitle>不定期写点东西</subtitle>
+    <subtitle>温故而知新</subtitle>
     <logo>https://geniusarthur.github.io/images/avatar.png</logo>
     <icon>https://geniusarthur.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 岂非博客</rights>
     <entry>
         <title type="html"><![CDATA[中国的“剽窃”为什么很严重]]></title>
-        <id>https://geniusarthur.github.io/post/zhong-guo-de-piao-qie-wei-shi-me-hen-yan-chong</id>
-        <link href="https://geniusarthur.github.io/post/zhong-guo-de-piao-qie-wei-shi-me-hen-yan-chong">
+        <id>https://geniusarthur.github.io/post/zhong-guo-de-piao-qie-wei-shi-me-hen-yan-chong/</id>
+        <link href="https://geniusarthur.github.io/post/zhong-guo-de-piao-qie-wei-shi-me-hen-yan-chong/">
         </link>
         <updated>2020-01-07T13:06:57.000Z</updated>
         <summary type="html"><![CDATA[<p>2019年2月15日，新京报发表了一篇名为<a href="http://www.bjnews.com.cn/news/2019/02/15/547447.html">《中国企业获设计“剽窃奖”被质疑》</a>的文章。起因是2019年度德国“金鼻子剽窃奖”多家中国企业上榜，官方回应并非有意为之。</p>
@@ -29,8 +29,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[我的2019年度最佳盘点]]></title>
-        <id>https://geniusarthur.github.io/post/wo-de-2019-nian-du-zui-jia-pan-dian</id>
-        <link href="https://geniusarthur.github.io/post/wo-de-2019-nian-du-zui-jia-pan-dian">
+        <id>https://geniusarthur.github.io/post/wo-de-2019-nian-du-zui-jia-pan-dian/</id>
+        <link href="https://geniusarthur.github.io/post/wo-de-2019-nian-du-zui-jia-pan-dian/">
         </link>
         <updated>2020-01-04T08:02:26.000Z</updated>
         <summary type="html"><![CDATA[<p>纯个人主观评价</p>
@@ -174,8 +174,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[迷思之一]]></title>
-        <id>https://geniusarthur.github.io/post/FYsLczJgq</id>
-        <link href="https://geniusarthur.github.io/post/FYsLczJgq">
+        <id>https://geniusarthur.github.io/post/FYsLczJgq/</id>
+        <link href="https://geniusarthur.github.io/post/FYsLczJgq/">
         </link>
         <updated>2019-06-22T14:40:35.000Z</updated>
         <summary type="html"><![CDATA[<p>在路上随便打开一个<a href="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=192431261&amp;type=red">播客</a>消解无聊，听了姚谦作词的故事，晚上又听到一期谈母女感情的节目，由此感触，记之。</p>
@@ -199,8 +199,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[《流浪地球》简评]]></title>
-        <id>https://geniusarthur.github.io/post/liu-lang-di-qiu-jian-ping</id>
-        <link href="https://geniusarthur.github.io/post/liu-lang-di-qiu-jian-ping">
+        <id>https://geniusarthur.github.io/post/liu-lang-di-qiu-jian-ping/</id>
+        <link href="https://geniusarthur.github.io/post/liu-lang-di-qiu-jian-ping/">
         </link>
         <updated>2019-06-02T07:45:37.000Z</updated>
         <summary type="html"><![CDATA[<p>今天中午利用一段空闲时间看完了《流浪地球》</p>
