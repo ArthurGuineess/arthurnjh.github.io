@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://geniusarthur.github.io</id>
+    <id>https://site.cppc.tech</id>
     <title>voixiov</title>
-    <updated>2020-07-01T08:31:31.613Z</updated>
+    <updated>2020-07-01T08:33:57.951Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://geniusarthur.github.io"/>
-    <link rel="self" href="https://geniusarthur.github.io/atom.xml"/>
+    <link rel="alternate" href="https://site.cppc.tech"/>
+    <link rel="self" href="https://site.cppc.tech/atom.xml"/>
     <subtitle>我有手足，自谋温饱；我有口舌，自陈好恶；我有心思，自崇所信；绝不认他人之越俎，亦不应主我而奴他人。</subtitle>
-    <logo>https://geniusarthur.github.io/images/avatar.png</logo>
-    <icon>https://geniusarthur.github.io/favicon.ico</icon>
+    <logo>https://site.cppc.tech/images/avatar.png</logo>
+    <icon>https://site.cppc.tech/favicon.ico</icon>
     <rights>All rights reserved 2020, voixiov</rights>
     <entry>
         <title type="html"><![CDATA[WSL Ubuntu 20.04 LTS安装 Hadoop实践]]></title>
-        <id>https://geniusarthur.github.io/nnhGOCrP8/</id>
-        <link href="https://geniusarthur.github.io/nnhGOCrP8/">
+        <id>https://site.cppc.tech/nnhGOCrP8/</id>
+        <link href="https://site.cppc.tech/nnhGOCrP8/">
         </link>
         <updated>2020-07-01T08:22:47.000Z</updated>
         <summary type="html"><![CDATA[<p>今天上午在<a href="https://www.videolan.org/vlc/">VLC</a>的官网上看到一个叫VLMC的尚未发布的项目，是非线性视频编辑软件，具体介绍见<a href="https://www.videolan.org/vlmc/">官网</a>。于是就想折腾一下，马上把源码clone下来想要编译，可是Windows少太多东西，一番瞎搞后，编译任务最终还是以失败告终。但是突然想起Windows的WSL是真香产品，便立即放弃编译，开始永无止境的折腾之路，然后就有了今天上午三个小时的安装Hadoop过程。</p>
@@ -34,15 +34,15 @@ chmod +x /bin/sleep
 </li>
 </ol>
 <p>解决以上问题后浏览器输入localhost:50070即可访问Hadoop，如下图所示：<br>
-<img src="https://geniusarthur.github.io/post-images/1593592075467.jpg" alt="localhost:50070" loading="lazy"><br>
+<img src="https://site.cppc.tech/post-images/1593592075467.jpg" alt="localhost:50070" loading="lazy"><br>
 安装完成之后可以参考<a href="https://blog.csdn.net/xiakexiaohu/article/details/54580971">这篇文章</a>运行一个wordcount示例进行测试，如果成功就证明Hadoop安装完成，下面就可以自己写任务了。</p>
 <p>以上即为今天的WSL安装Hadoop的实践过程。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[R语言基础操作]]></title>
-        <id>https://geniusarthur.github.io/RUtPczJgs/</id>
-        <link href="https://geniusarthur.github.io/RUtPczJgs/">
+        <id>https://site.cppc.tech/RUtPczJgs/</id>
+        <link href="https://site.cppc.tech/RUtPczJgs/">
         </link>
         <updated>2020-04-14T15:16:38.000Z</updated>
         <summary type="html"><![CDATA[<p>主要介绍R语言的基本操作以及数据类型和数据结构</p>
@@ -309,8 +309,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[中国的“剽窃”为什么很严重]]></title>
-        <id>https://geniusarthur.github.io/aQsLcTifq/</id>
-        <link href="https://geniusarthur.github.io/aQsLcTifq/">
+        <id>https://site.cppc.tech/aQsLcTifq/</id>
+        <link href="https://site.cppc.tech/aQsLcTifq/">
         </link>
         <updated>2020-01-07T13:06:57.000Z</updated>
         <summary type="html"><![CDATA[<p>2019年2月15日，新京报发表了一篇名为<a href="http://www.bjnews.com.cn/news/2019/02/15/547447.html">《中国企业获设计“剽窃奖”被质疑》</a>的文章。起因是2019年度德国“金鼻子剽窃奖”多家中国企业上榜，官方回应并非有意为之。</p>
@@ -326,8 +326,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[我的2019年度最佳盘点]]></title>
-        <id>https://geniusarthur.github.io/my2019/</id>
-        <link href="https://geniusarthur.github.io/my2019/">
+        <id>https://site.cppc.tech/my2019/</id>
+        <link href="https://site.cppc.tech/my2019/">
         </link>
         <updated>2020-01-04T08:02:26.000Z</updated>
         <summary type="html"><![CDATA[<p>纯个人主观评价</p>
@@ -364,7 +364,7 @@ x7
 <p>大内密谈</p>
 <p>看理想电台</p>
 <h2 id="照片">照片</h2>
-<figure data-type="image" tabindex="1"><img src="https://geniusarthur.github.io/post-images/1578125161491.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://site.cppc.tech/post-images/1578125161491.jpg" alt="" loading="lazy"></figure>
 <h2 id="地点">地点</h2>
 <p>星巴克常州传媒中心店</p>
 <h2 id="文章">文章</h2>
@@ -390,8 +390,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[迷思之一]]></title>
-        <id>https://geniusarthur.github.io/FYsLczJgq/</id>
-        <link href="https://geniusarthur.github.io/FYsLczJgq/">
+        <id>https://site.cppc.tech/FYsLczJgq/</id>
+        <link href="https://site.cppc.tech/FYsLczJgq/">
         </link>
         <updated>2019-06-22T14:40:35.000Z</updated>
         <summary type="html"><![CDATA[<p>在路上随便打开一个<a href="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=192431261&amp;type=red">播客</a>消解无聊，听了姚谦作词的故事，晚上又听到一期谈母女感情的节目，由此感触，记之。</p>
@@ -399,7 +399,7 @@ x7
         <content type="html"><![CDATA[<p>在路上随便打开一个<a href="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=192431261&amp;type=red">播客</a>消解无聊，听了姚谦作词的故事，晚上又听到一期谈母女感情的节目，由此感触，记之。</p>
 <!--more-->
 <p>首先还是应该从父母开始讲起，因为往往一个人的爱情观与父母的相处方式密切相关。在播客中，有几位女性分享了自己与母亲的关系，有你强我弱的关系，也有相亲相爱的关系，无论因为何种原因，我想其中都一定包含「爱」，只是方式不同。</p>
-<figure data-type="image" tabindex="1"><img src="https://geniusarthur.github.io/post-images/1580480067388.JPG" alt="" title="爱不止爱" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://site.cppc.tech/post-images/1580480067388.JPG" alt="" title="爱不止爱" loading="lazy"></figure>
 <center>
 <div style="align: center; color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;">爱不只爱</div>
 </center>
@@ -415,8 +415,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[《流浪地球》简评]]></title>
-        <id>https://geniusarthur.github.io/FYsLczJqp/</id>
-        <link href="https://geniusarthur.github.io/FYsLczJqp/">
+        <id>https://site.cppc.tech/FYsLczJqp/</id>
+        <link href="https://site.cppc.tech/FYsLczJqp/">
         </link>
         <updated>2019-06-02T07:45:37.000Z</updated>
         <summary type="html"><![CDATA[<p>今天中午利用一段空闲时间看完了《流浪地球》</p>
