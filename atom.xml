@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://site.cppc.tech</id>
     <title>voixiov</title>
-    <updated>2020-07-01T08:33:57.951Z</updated>
+    <updated>2020-07-07T10:55:56.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://site.cppc.tech"/>
     <link rel="self" href="https://site.cppc.tech/atom.xml"/>
@@ -10,6 +10,126 @@
     <logo>https://site.cppc.tech/images/avatar.png</logo>
     <icon>https://site.cppc.tech/favicon.ico</icon>
     <rights>All rights reserved 2020, voixiov</rights>
+    <entry>
+        <title type="html"><![CDATA[（转载）真无线耳机你了解多少？（蓝牙编码篇）]]></title>
+        <id>https://site.cppc.tech/Qt6HjRsbN/</id>
+        <link href="https://site.cppc.tech/Qt6HjRsbN/">
+        </link>
+        <updated>2020-07-07T10:38:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>转载自 <a href="https://www.spill.hk">SPILL</a> | 「原文为繁体中文，这里转为简体中文便于大陆用户阅读。」</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>转载自 <a href="https://www.spill.hk">SPILL</a> | 「原文为繁体中文，这里转为简体中文便于大陆用户阅读。」</p>
+<!-- more -->
+<p>市面上推出的真无线耳机品牌琳琅满目，导致许多消费者有选择上的困难。上次了解过內里的<a href="https://www.spill.hk/headphones/true-wireless-bluetooth-chips/">蓝牙晶片</a>，今次要告诉你蓝牙编码的重要性，利用蓝牙传输音乐，就必须先进行编码，而这些编码是会直接影响到音质表现。</p>
+<ul>
+<li><a href="https://www.spill.hk/search/(%E8%80%B3%E6%B0%B4)/">耳水</a></li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://site.cppc.tech/post-images/1594119036020.jpg" alt="市面上推出的真无线耳机品牌琳琅满目，导致许多消费者有选择上的困难。上次了解过內里的蓝牙晶片，今次要告诉你蓝牙编码的重要性，利用蓝牙传输音乐，就必须先进行编码，而这些编码是会直接影响到音质表现。" loading="lazy"></figure>
+<h3 id="认识用于蓝牙传输的编码">认识用于蓝牙传输的编码</h3>
+<p>蓝牙是一种无线传输技术，市面上的蓝牙耳机是透过 A2DP 的协议下传输讯号。由于位元率（Bit Rate）十分有限，无法像有线耳机传输，只能在有限的频宽下，透过压缩编码的方式来传递声音讯号。有留意开我们的真无线耳机评测文章，常常会见到支援 SBC、AAC、aptX，还有 aptX LL 等蓝牙编码，对于耳机爱好者大概是老生常谈的事，但对普罗大众来说，就可能会不太清楚是什么。今次我们逐一讲解，从最传统的 SBC、到 Apple 主打的 AAC、Sony 创造的 LDAC，以及 Qualcomm 拥有一系列的 aptX 等等。</p>
+<h2 id="sbc">SBC</h2>
+<p>SBC 是在 A2DP 音频传输协议下最早期的蓝牙编码，基本上，所有真无线耳机也会支援 SBC，它是一种有损压缩编码，单声道的最大输出位元速率为 320kbps；而双声道则为 512kbps，在 A2DP 协议下，双声道的最大传输率只有 328kbps，还要经过 SBR Codec 转换，过程中会损失细节，音质自然打了折扣。</p>
+<h2 id="aac">AAC</h2>
+<p>早在苹果 iPod 年代已接触 AAC，而且所有 iPhone 或 iPad 全都支援 AAC 编码，因而好多人都以为是由苹果研发出来的，但其实这是源自于 Fraunhofer IIS、杜比实验室、AT&amp;T、Sony、Nokia 等公司共同开发的有损压缩格式。它拥有高压缩比的编码算法，可以把音档压缩得比 SBC 档更小，在高频部分比 SBC 能保留更多声音细节，因此听感上会比 SBC 来得更好。</p>
+<figure data-type="image" tabindex="2"><img src="https://site.cppc.tech/post-images/1594119066510.jpg" alt="市面上推出的真无线耳机品牌琳琅满目，导致许多消费者有选择上的困难。上次了解过內里的蓝牙晶片，今次要告诉你蓝牙编码的重要性，利用蓝牙传输音乐，就必须先进行编码，而这些编码是会直接影响到音质表现。" loading="lazy"></figure>
+<p>笔者第一次接触 AAC 是在苹果的 iPod 上。</p>
+<h2 id="aptx">aptX</h2>
+<p>原名叫 apt-X，CSR 于 2010 年将其收购后，才改名称为 aptX；随后，CSR 在 2015 年 8 月被 Qualcomm 收购。因此，aptX 成为了 Qualcomm 专利的音讯编码。aptX 一直标榜可以达到接近 CD 的音质，虽然传输量比传统蓝牙编码效率更高，但最大传输率只有 352kbps 而已，若要串流高解析度音讯（Hi-Res），与连接有线耳机的方式相比，音质还有一大段距离。</p>
+<h2 id="aptx-hd">aptX HD</h2>
+<p>在 2016 年， Qualcomm 就公布了 aptX 的进化版，名为 aptX HD，可以无线方式传输 Hi-Res 音乐讯号。aptX HD 可以达到 576kbps，音乐讯号以 4:1 的比率压缩，现时支援 24bit/48kHz 的音乐，亦即是比 CD 音质的 16bit/44.1kHz 还要高。aptX HD 可同时兼容旧有的 aptX，即是如果手机支援 aptX HD、耳机也支援的话，蓝牙连接之后就可以享受高品质无线听歌。不过，若其中一方只支援普通 aptX 的话，依然可以听到 aptX 的较佳音质。</p>
+<h2 id="aptx-ll">aptX LL</h2>
+<p>全名为 aptX Low Latency，是低延迟传输技术，在观看视频时能同步收听无线音频。需配合支援 aptX 的装置使用，据称能够提供 32ms 超低延迟率，确保声画同步传送，提升游戏及影片内容质素，不用担心出现&quot;甩嘴&quot;情况。</p>
+<h2 id="aptx-adaptive">aptX Adaptive</h2>
+<p>aptX Adaptive 是 aptX 编码最新的规格，Qualcomm 时下的 QCC303x 和 QCC5100 等系列蓝牙晶片已支援 aptx Adaptive，可以带来更高效率的蓝牙声音传输，Qualcomm 表示，该编码支援最高 24bit/96kHz 取样率，最大传输率达至 420kbps，而声音延迟可少于 2ms，令播放影片或玩游戏的时候，声音可与画面更加同步。即使手机不支援 aptX Adaptive，亦可向下兼容 aptX 及 aptX HD。</p>
+<h2 id="ldac">LDAC</h2>
+<p>LDAC 是 Sony 自家研发出来的蓝牙编码，传输率最高可以达到 990kbps，能够无线传输 24bit/96kHz 规格的 Hi-Res Audio 讯号。LDAC 提供 3 种传输模式，分为音质优先、正常，以及连线优先，分别为 990kbps、660kbps 及 330kbps 三种不同速度的传输率，即使是最低的连线优先的传输率仍优于 SBC。若串流播放 CD 质素音乐，LDAC 编码可以做到无压缩播放；而串流播放 Hi-Res Audio 高解析度音讯，LDAC 最高传输率达 990kbps，声音效果一定比 SBC 或 AAC 好。现时不单止 Sony 手机和 Walkman 播放器会使用 LDAC 编码，不少国产 DAP 亦对应得到。</p>
+<figure data-type="image" tabindex="3"><img src="https://site.cppc.tech/post-images/1594119083844.jpg" alt="市面上推出的真无线耳机品牌琳琅满目，导致许多消费者有选择上的困难。上次了解过內里的蓝牙晶片，今次要告诉你蓝牙编码的重要性，利用蓝牙传输音乐，就必须先进行编码，而这些编码是会直接影响到音质表现。" loading="lazy"></figure>
+<p>串流播放 CD 质素音乐，LDAC 编码可以做到无压缩播放。（Sony 官方相片）</p>
+<h2 id="lhdc">LHDC</h2>
+<p>由台湾晶片厂商 Savitech 开发的 LHDC，全名为 Low-Latency Hi-Definition Audio Codec，是基于 A2DP 蓝牙音讯协定下所开发的高品质编码，规格与 Sony 的 LDAC 相似，支援 24bit/96KHz 高解析度音讯串流传输，最高传输率可达 900kbps，是传统 SBC 编码器（328Kbps）的近 3 倍。目前 LHDC 编码主要支援平台是小米和华为的手机。</p>
+<h3 id="蓝牙编码规格比较">蓝牙编码规格比较</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>最高传输率Max Bit Rate</th>
+<th>最高位元深度Max Bit Depth</th>
+<th>最高取样率Max Sample Rate</th>
+<th>改变串流传输Variable Bit Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SBC</td>
+<td>328kbps</td>
+<td>16bit</td>
+<td>48kHz</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>AAC</td>
+<td>264kbps</td>
+<td>16bit</td>
+<td>96kHz</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>aptX</td>
+<td>384kbps</td>
+<td>16bit</td>
+<td>48kHz</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>aptX HD</td>
+<td>576kbps</td>
+<td>24bit</td>
+<td>48kHz</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>aptX LL</td>
+<td>352kbps</td>
+<td>16bit</td>
+<td>44.1kHz</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>aptX Adaptive</td>
+<td>420kbps</td>
+<td>24bit</td>
+<td>96kHz</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>LDAC</td>
+<td>990kbps</td>
+<td>24bit</td>
+<td>96kHz</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>LHDC</td>
+<td>900kbps</td>
+<td>24bit</td>
+<td>96kHz</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<h2 id="总结">总结</h2>
+<h3 id="声音好坏非单一取决于蓝牙编码">声音好坏非单一取决于蓝牙编码</h3>
+<p>时下的真无线耳机仅支援 SBC、AAC、aptX 及 aptX LL 蓝牙编码，并没有高品质的 aptX HD 和 aptX Adaptive，甚至连 Sony 自家的真无线耳机也不支援 LDAC，无它的，真无线耳机往往会以连接稳定性为优先考虑条件，因为高品质蓝牙编码所用的蓝牙频宽较大，较容易产生讯号干扰。大家在选购真无线耳机时，其实也无须太在意蓝牙编码，因为声音的好坏从来不单是取决于蓝牙编码，厂方的调声功夫才是最重要的。另外，iPhone 用家要注意，由于 iPhone 本身不支援 aptX 编码的关系，换言之，就算耳机支援 aptX 编码，也会用回 AAC、SBC，因此 iPhone 用家不必追求高品质编码。不过随着 Qualcomm 和苹果达成了世纪和解，未来的新 iPhone 自然有机会用回讯号较好的 Qualcomm 蓝牙晶片，我们只好拭目以待吧。</p>
+<blockquote>
+<h4 id="延伸阅读">延伸阅读：</h4>
+<p><a href="https://www.spill.hk/headphones/true-wireless-bluetooth-chips/">▸ 真无线耳机你了解多少？（蓝牙晶片篇）</a></p>
+</blockquote>
+<figure data-type="image" tabindex="4"><img src="https://site.cppc.tech/post-images/1594119162525.jpg" alt="市面上推出的真无线耳机品牌琳琅满目，导致许多消费者有选择上的困难。上次了解过內里的蓝牙晶片，今次要告诉你蓝牙编码的重要性，利用蓝牙传输音乐，就必须先进行编码，而这些编码是会直接影响到音质表现。" loading="lazy"></figure>
+<p>真无线耳机会以连接稳定性为优先考虑条件，所以 Sony 的高阶型号 WF-1000XM3 也不支援自家 LDAC 蓝牙编码。</p>
+<p>SPILL Paper 逢星期六出版，电邮限定，每周精选 10 则最新视听资讯，包含新闻、评测和专题等，为大家带来多元化的内容。立即<a href="https://bit.ly/SPILLPaper">按此订阅</a>。</p>
+<p><a href="https://www.spill.hk/headphones/true-wireless-bluetooth-codecs/"><strong>Source</strong></a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WSL Ubuntu 20.04 LTS安装 Hadoop实践]]></title>
         <id>https://site.cppc.tech/nnhGOCrP8/</id>
