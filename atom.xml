@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://site.cppc.tech</id>
     <title>voixiov</title>
-    <updated>2020-07-12T19:18:42.122Z</updated>
+    <updated>2020-07-14T14:53:54.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://site.cppc.tech"/>
     <link rel="self" href="https://site.cppc.tech/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, voixiov</rights>
     <entry>
         <title type="html"><![CDATA[（转载）真无线耳机你了解多少？（蓝牙编码篇）]]></title>
-        <id>https://site.cppc.tech/Qt6HjRsbN/</id>
-        <link href="https://site.cppc.tech/Qt6HjRsbN/">
+        <id>https://site.cppc.tech/post/Qt6HjRsbN/</id>
+        <link href="https://site.cppc.tech/post/Qt6HjRsbN/">
         </link>
         <updated>2020-07-07T10:38:50.000Z</updated>
         <summary type="html"><![CDATA[<p>转载自 <a href="https://www.spill.hk">SPILL</a> | 「原文为繁体中文，这里转为简体中文便于大陆用户阅读。」</p>
@@ -132,8 +132,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WSL Ubuntu 20.04 LTS安装 Hadoop实践]]></title>
-        <id>https://site.cppc.tech/nnhGOCrP8/</id>
-        <link href="https://site.cppc.tech/nnhGOCrP8/">
+        <id>https://site.cppc.tech/post/nnhGOCrP8/</id>
+        <link href="https://site.cppc.tech/post/nnhGOCrP8/">
         </link>
         <updated>2020-07-01T08:22:47.000Z</updated>
         <summary type="html"><![CDATA[<p>今天上午在<a href="https://www.videolan.org/vlc/">VLC</a>的官网上看到一个叫VLMC的尚未发布的项目，是非线性视频编辑软件，具体介绍见<a href="https://www.videolan.org/vlmc/">官网</a>。于是就想折腾一下，马上把源码clone下来想要编译，可是Windows少太多东西，一番瞎搞后，编译任务最终还是以失败告终。但是突然想起Windows的WSL是真香产品，便立即放弃编译，开始永无止境的折腾之路，然后就有了今天上午三个小时的安装Hadoop过程。</p>
@@ -161,8 +161,8 @@ chmod +x /bin/sleep
     </entry>
     <entry>
         <title type="html"><![CDATA[R语言基础操作]]></title>
-        <id>https://site.cppc.tech/RUtPczJgs/</id>
-        <link href="https://site.cppc.tech/RUtPczJgs/">
+        <id>https://site.cppc.tech/post/RUtPczJgs/</id>
+        <link href="https://site.cppc.tech/post/RUtPczJgs/">
         </link>
         <updated>2020-04-14T15:16:38.000Z</updated>
         <summary type="html"><![CDATA[<p>主要介绍R语言的基本操作以及数据类型和数据结构</p>
@@ -429,8 +429,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[中国的“剽窃”为什么很严重]]></title>
-        <id>https://site.cppc.tech/aQsLcTifq/</id>
-        <link href="https://site.cppc.tech/aQsLcTifq/">
+        <id>https://site.cppc.tech/post/aQsLcTifq/</id>
+        <link href="https://site.cppc.tech/post/aQsLcTifq/">
         </link>
         <updated>2020-01-07T13:06:57.000Z</updated>
         <summary type="html"><![CDATA[<p>2019年2月15日，新京报发表了一篇名为<a href="http://www.bjnews.com.cn/news/2019/02/15/547447.html">《中国企业获设计“剽窃奖”被质疑》</a>的文章。起因是2019年度德国“金鼻子剽窃奖”多家中国企业上榜，官方回应并非有意为之。</p>
@@ -446,8 +446,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[我的2019年度最佳盘点]]></title>
-        <id>https://site.cppc.tech/my2019/</id>
-        <link href="https://site.cppc.tech/my2019/">
+        <id>https://site.cppc.tech/post/my2019/</id>
+        <link href="https://site.cppc.tech/post/my2019/">
         </link>
         <updated>2020-01-04T08:02:26.000Z</updated>
         <summary type="html"><![CDATA[<p>纯个人主观评价</p>
@@ -510,8 +510,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[迷思之一]]></title>
-        <id>https://site.cppc.tech/FYsLczJgq/</id>
-        <link href="https://site.cppc.tech/FYsLczJgq/">
+        <id>https://site.cppc.tech/post/FYsLczJgq/</id>
+        <link href="https://site.cppc.tech/post/FYsLczJgq/">
         </link>
         <updated>2019-06-22T14:40:35.000Z</updated>
         <summary type="html"><![CDATA[<p>在路上随便打开一个<a href="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=192431261&amp;type=red">播客</a>消解无聊，听了姚谦作词的故事，晚上又听到一期谈母女感情的节目，由此感触，记之。</p>
@@ -535,8 +535,8 @@ x7
     </entry>
     <entry>
         <title type="html"><![CDATA[《流浪地球》简评]]></title>
-        <id>https://site.cppc.tech/FYsLczJqp/</id>
-        <link href="https://site.cppc.tech/FYsLczJqp/">
+        <id>https://site.cppc.tech/post/FYsLczJqp/</id>
+        <link href="https://site.cppc.tech/post/FYsLczJqp/">
         </link>
         <updated>2019-06-02T07:45:37.000Z</updated>
         <summary type="html"><![CDATA[<p>今天中午利用一段空闲时间看完了《流浪地球》</p>
