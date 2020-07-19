@@ -1736,11 +1736,11 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #212529!important;
         }
         
         .gt-bg-content-color-second {
-          background: #868e96!important;
+          background: #495057!important;
         }
         
         .gt-bg-accent-color-first {
@@ -1760,11 +1760,11 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         .gt-c-content-color-second {
-          color: #868e96!important;
+          color: #495057!important;
         }
         
         .gt-c-accent-color-first {
@@ -1776,7 +1776,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         body {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         a {
@@ -1785,20 +1785,20 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(81,207,102,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(81,207,102,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(81,207,102,0.4) 0)!important;
         }
